@@ -1,0 +1,18 @@
+*{
+    font-style: italic;
+    display: center;
+}
+
+#form{
+    height: 40%;
+    width: 20%;
+}
+
+.contanier{
+    height: auto;
+    width: 40%;
+}
+
+section{
+    margin-left: 45%;
+}
