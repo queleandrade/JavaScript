@@ -1,6 +1,5 @@
 *{
     font-style: italic;
-    display: center;
 }
 
 #form{
@@ -10,9 +9,15 @@
 
 .contanier{
     height: auto;
-    width: 40%;
+    width: 50%;
 }
 
 section{
     margin-left: 45%;
+}
+
+#add{
+    display: inline-block;
+    width: 110%;
+    margin-top: 10%;
 }
