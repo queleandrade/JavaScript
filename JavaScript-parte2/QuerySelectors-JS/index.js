@@ -30,7 +30,32 @@ elementoPai.insertBefore(umNovoElemento, primeiroh1)
 
 let umNovoParagrafo = document.createElement("p"); //que elemento quero criar?
 
-let paragrafoDeDentroDaDiv = document.querySelector("div div p")
-let elementoPai = document.querySelector("#segundaDiv")
+let paragrafoDeDentroDaDiv = document.querySelector("div div p");
+let elementoPai = document.querySelector("#segundaDiv");
+
+elementoPai.insertBefore(umNovoParagrafo, paragrafoDeDentroDaDiv);
+
+
+//inserindo elementos com AppendChild e ParentNode
+//inserindo um texto dentro do paragráfo
+
+let umNovoParagrafo = document.createElement("p"); //que elemento quero criar?
+let textoNovo = document.createTextNode("Algum exemplo");
+
+umNovoParagrafo.appendChild(textoNovo);
+let paragrafoDeDentroDaDiv = document.querySelector("div p");
+let elementoPai = document.querySelector("#segundaDiv");
 
 elementoPai.insertBefore(umNovoParagrafo, paragrafoDeDentroDaDiv)
+
+//cria um novo item na lista
+let umNovoItemDeLista = document.createElement("li");
+//cria o texto
+let textoDaLi = umNovoItemDeLista.createTextNode("water");
+//adiciona o texto no item da lista
+umNovoItemDeLista.appendChild(textoDaLi);
+//adiciona o item da lista e seu texto na lista ordenada (ol)
+let listaOrdenada = document.getElementsByTagName("ol");
+
+listaOrdenada.appendChild(umNovoItemDeLista);
+
