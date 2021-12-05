@@ -13,3 +13,14 @@ console.log(document.querySelector(".classe-primeiroh1").innerHTML); //innerHTML
 console.log(document.querySelector("#primeiroh2").innerHTML); //pegando o valor por ID
 console.log(document.querySelector("#minha-lista").childNodes); //pega os elementos filhos dessa lista
 console.log(document.querySelector("#minha-lista #banana")); //acessando um filho especifico da lista
+
+//pegar os elementos por CreateElement e InsertBefore
+//criando um paragrafo depois do h1 e dentro do body
+
+let umNovoElemento = document.createElement("P");
+
+let primeiroh1 = document.querySelector("#primeiroh1")
+let elementoPai = document.querySelector("body")
+
+elementoPai.insertBefore(umNovoElemento, primeiroh1)
+
