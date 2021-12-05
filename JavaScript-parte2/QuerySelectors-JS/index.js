@@ -17,10 +17,20 @@ console.log(document.querySelector("#minha-lista #banana")); //acessando um filh
 //pegar os elementos por CreateElement e InsertBefore
 //criando um paragrafo depois do h1 e dentro do body
 
-let umNovoElemento = document.createElement("P");
+let umNovoElemento = document.createElement("p");
 
 let primeiroh1 = document.querySelector("#primeiroh1")
 let elementoPai = document.querySelector("body")
 
 elementoPai.insertBefore(umNovoElemento, primeiroh1)
 
+//pegar os elementos por CreateElement e InsertBefore
+//criando um paragrafo depois do h1 e dentro do body
+//criando por encadeamento
+
+let umNovoParagrafo = document.createElement("p"); //que elemento quero criar?
+
+let paragrafoDeDentroDaDiv = document.querySelector("div div p")
+let elementoPai = document.querySelector("#segundaDiv")
+
+elementoPai.insertBefore(umNovoParagrafo, paragrafoDeDentroDaDiv)
