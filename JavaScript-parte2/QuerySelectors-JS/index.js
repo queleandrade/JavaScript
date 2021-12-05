@@ -3,4 +3,7 @@ console.log(document.getElementById("primeiroh1").innerText); //acessa o documen
 console.log(document.getElementById("primeiroh2").innerText); 
 
 //pega os elementos por Tag name
-console.log(document.getElementsByTagName("h1"); 
+console.log(document.getElementsByTagName("h1"));
+
+//pega os elementos por Class name
+console.log(document.getElementsByClassName("classe-primeiroh1"));
