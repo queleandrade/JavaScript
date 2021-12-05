@@ -59,3 +59,19 @@ let listaOrdenada = document.getElementsByTagName("ol");
 
 listaOrdenada.appendChild(umNovoItemDeLista);
 
+//Criando e removendo elementos
+
+//let btn1 = document.querySelector('#abnt1');
+
+//function Teste2(){
+ //   return console.log("Clicou no bnotão")
+//}
+//btn1.addEventListener("click", Teste2)
+
+//const clicouEmMm = () => console.log("Clicou para remover")
+
+//let btn2 = document.querySelector("#btn2");
+//btn2.addEventListener("click", () => {
+  //  clicouEmMm()
+    //btn1.removeEventListener("click", Teste2)
+//})
