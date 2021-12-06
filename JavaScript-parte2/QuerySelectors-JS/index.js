@@ -75,3 +75,11 @@ listaOrdenada.appendChild(umNovoItemDeLista);
   //  clicouEmMm()
     //btn1.removeEventListener("click", Teste2)
 //})
+
+
+//propagação
+
+//function Teste2(event){
+    //event.stopPropagation();
+ //   return console.log("Clicou no bnotão")
+//}
